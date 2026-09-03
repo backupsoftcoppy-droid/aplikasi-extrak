@@ -12,7 +12,7 @@ import streamlit as st
 # ==========================================
 def check_password():
     def password_entered():
-        if st.session_state["password"] == st.secrets.get("APP_PASSWORD", "admin123"):
+        if st.session_state["password"] == st.secrets.get("APP_PASSWORD", "deon22"):
             st.session_state["password_correct"] = True
             del st.session_state["password"]
         else:
