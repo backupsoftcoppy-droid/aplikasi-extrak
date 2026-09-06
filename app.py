@@ -22,7 +22,7 @@ def check_password():
         return True
 
     st.set_page_config(page_title="Login - SPX Processor", page_icon="🔒", layout="centered")
-    st.title("🔒 Akses Terbatas - SPX Internal")
+    st.title("🔒 Akses Terbatas - Implant Lion Internal")
     st.write("Silakan masukkan password tim internal untuk melanjutkan.")
 
     st.text_input("Masukkan Password", type="password", on_change=password_entered, key="password")
