@@ -193,7 +193,7 @@ if check_password():
             st.session_state["password_correct"] = False
             st.rerun()
 
-    st.title("📦 SPX Data Processor App")
+    st.title("📦 Implant data prosesor viewer pdf")
     st.write("Aplikasi pengolah data **Laporan Scan PDF** secara otomatis.")
 
     uploaded_pdf = st.file_uploader("Pilih file PDF (.pdf)", type=["pdf"], key="pdf_uploader")
